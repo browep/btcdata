@@ -12,6 +12,12 @@
   <component name="GemRequirementsHolder" version="3">
     <requirement>
       <requirement>
+        <dependency name="elif" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="fakeweb" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
@@ -92,6 +98,8 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] rack-test (v0.5.7, /home/paul/.rvm/gems/ruby-1.9.2-p0/gems/rack-test-0.5.7)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] erubis (v2.6.6, /home/paul/.rvm/gems/ruby-1.9.2-p0@global/gems/erubis-2.6.6)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] i18n (v0.5.0, /home/paul/.rvm/gems/ruby-1.9.2-p0@global/gems/i18n-0.5.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] nifty-generators (v0.4.6, /home/paul/.rvm/gems/ruby-1.9.2-p0/gems/nifty-generators-0.4.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] elif (v0.1.0, /home/paul/.rvm/gems/ruby-1.9.2-p0/gems/elif-0.1.0)" level="application" />
   </component>
 </module>
 

@@ -41,7 +41,8 @@ class RecentTradesTest < ActiveSupport::TestCase
             :id=>trade_entry['tid'],
             :date=>Time.at(trade_entry['date']),
             :price=>trade_entry['price'].to_f,
-            :amount=>trade_entry['amount'].to_f
+            :amount=>trade_entry['amount'].to_f,
+            :exchange=>:mtgox
         )
       end
 
@@ -53,17 +54,9 @@ class RecentTradesTest < ActiveSupport::TestCase
       assert trades[0].amount.instance_of? Float
       assert trades[0].price == 15.34089
       assert trades[0].amount == 6.0
+      assert trades[0].exchange == :mtgox
     end
   end
 
-  def test_trade_to_archive
-    trade = Trade.new(
-        :id=>"123456",
-        :date=>Time.at(1310066101),
-        :price=>10.1,
-        :amount=>5.05
-    )
 
-    assert trade.to_archive == "123456,1310066101,10.1,5.05,,"
-  end
 end

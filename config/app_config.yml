@@ -1,8 +1,13 @@
 development:
   domain: localhost:3000
+  data_file: /usr/local/btcdata/test_trades.csv
+
 
 test:
   domain: test.host
+  data_file: /usr/local/btcdata/test_trades.csv
 
 production:
   domain: example.com
+  data_file: /usr/local/btcdata/test_trades.csv
+

@@ -13,3 +13,4 @@ gem "vcr", "~> 1.10.0"
 gem "json"
 gem 'httparty'
 gem 'nifty-generators', '>= 0.4.0'
+gem "elif"
