@@ -9,5 +9,5 @@ test:
 
 production:
   domain: example.com
-  data_file: /usr/local/btcdata/test_trades.csv
+  data_file: /usr/local/btcdata/trades.csv
 
