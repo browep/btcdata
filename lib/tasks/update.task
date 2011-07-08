@@ -1,0 +1,6 @@
+namespace :update do
+  task :mtgox do
+    # get the latest trades from the file
+    
+  end
+end
